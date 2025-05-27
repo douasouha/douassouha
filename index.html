@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mon Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <!-- Barre de navigation -->
+    <nav id="navbar">
+        <div class="container">
+            <a href="#" class="logo">Portfolio</a>
+            <ul class="nav-links">
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section Hero -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Douas Souha <span class="typed-text"></span></h1>
+                <p>Salut, moi c’est Douas Souha, développeuse web fullstack passionnée par l’innovation et l’intelligence artificielle.
+J’allie design, développement frontend & backend, et deep learning pour créer des applications web complètes, intelligentes et utiles. Chaque ligne de code est pour moi une opportunité de résoudre un problème réel et d’avoir de l’impact.</p>
+                <a href="#portfolio" class="btn">Voir mon travail</a>
+            </div>
+            <div class="hero-image">
+                <img src="img/cropped_circle_image-removebg-preview.png" alt="Photo de profil">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>À propos de moi</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Qui suis-je ?</h3>
+                    <p>Je suis un développeuse de sites web modernes et réactifs.</p>
+                    <p>Mon objectif est de créer des expériences utilisateur exceptionnelles tout en respectant les meilleures pratiques de développement. <br><br></p>
+                    <div class="about-info">
+                        <div>
+                            <span>Nom :</span>
+                            <p>Douas Souha</p>
+                        </div>
+                        <div>
+                            <span>Email :</span>
+                            <p>dssouha27@gmail.com</p>
+                        </div>
+                      
+                        <div>
+                            <span>Téléphone :</span>
+                            <p>+213 793 26 46 73</p>
+                        </div>
+                    </div>
+                  
+                </div>
+                <div class="about-skills">
+                    <div class="skill">
+                        <h3>HTML</h3>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h3>PHP</h3>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h3>CSS</h3>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h3>JavaScript</h3>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h3>React</h3>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Mes Compétences</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Développement Web</h3>
+                    <p>Création de sites web responsives et modernes avec les dernières technologies.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Design Responsive</h3>
+                    <p>Adaptation parfaite à tous les appareils, du mobile au desktop.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>UI/UX Design</h3>
+                    <p>Conception d'interfaces utilisateur intuitives et esthétiques.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-search"></i>
+                    <h3>Intégration Web</h3>
+                    <p>
+                             Traduction de maquettes (Figma, Adobe XD...) en pages web fonctionnelles en utilisant HTML, CSS, et JavaScript.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-server"></i>
+                    <h3>Backend</h3>
+                    <p>Développement côté serveur avec Next.js et bases de données.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-rocket"></i>
+                    <h3>Intelligence Artificielle (IA)</h3>
+                    <p>Conception, entraînement et évaluation de modèles de Deep Learning (CNN) pour la classification d’images médicales.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>Mon Portfolio</h2>
+          
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web">
+                    <img src="img/carhub.png" alt="Projet 1">
+                    <div class="portfolio-overlay">
+                
+                      
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="app">
+                    <img src="img/click.png" alt="Projet 2">
+                    <div class="portfolio-overlay">
+                      
+                      
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="design">
+                    <img src="img/dqzzz.png" alt="Projet 3">
+                    <div class="portfolio-overlay">
+              
+                    
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <img src="img/eshop.png" alt="Projet 4">
+                    <div class="portfolio-overlay">
+                    
+                      
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="app">
+                    <img src="img/heqlth.png" alt="Projet 5">
+                    <div class="portfolio-overlay">
+                        
+                    
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <img src="img/lqboooo.png" alt="Projet 6">
+                    <div class="portfolio-overlay">
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contactez-moi</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Algerie , Constantine</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>dssouha27@gmail.com</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+213 793 26 46 73</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="https://web.telegram.org/a/#905589362"><i class="fab fa-telegram"></i></a>
+                        <a href="https://www.facebook.com/sou.uuha.2025"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/souuuha_vibes/followers/"><i class="fab fa-instagram"></i></am</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Douas Souha - Tous droits réservés</p>
+  </footer>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
